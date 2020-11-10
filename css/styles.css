@@ -14,14 +14,20 @@
     background-color: #000000;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
+    color:#ffffff;
 }
 
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
     background: #ffffff ;
-    color:floralwhite;
+    color:rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    background: url(https://media.gq.com/photos/5ee2450a2e828590ab87b75a/16:9/w_2560%2Cc_limit/what%252520comes%252520after%252520cross%252520fit%252520gq%252520june%2525202020%252520.jpg) no-repeat 50% 50%;
+    background-size: cover;
 }
+
 
 address{
     font-size:80%;
@@ -38,13 +44,23 @@ body{
     z-index:0;
 }
 
-.navbar-inverse {
-    background-color: #000000;
-}
-
 .tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
+}
+
+.navbar-inverse {
+    background-color: #000000;
+}
+
+nav ul {
+    line-height: 50px;
+    padding-right: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
 }
